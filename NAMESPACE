@@ -1,0 +1,5 @@
+useDynLib(PeakCorTest, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom("methods", "as")
+importClassesFrom("Matrix", "sparseMatrix")
+exportPattern("^[[:alpha:]]+")

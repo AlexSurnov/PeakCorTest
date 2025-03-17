@@ -1,0 +1,29 @@
+Package: PeakCorTest
+Type: Package
+Title: The package runs the Peak Correlation Test
+Version: 1.0
+Date: 2025-03-15
+Authors@R: person("Alex", "Surnov", role = "cre", email =
+       "alexsurnov88@gmail.com")
+Description: The method is invented by A. T. Fomenko. Its idea is as follows.
+       Two mathematical functions defined on the same segment are given, and one aims to
+       identify statistically, whether the locations of local maxima of the first function
+       are correlated to those of the second function.
+       Given that both functions are defined on the same finite segment, the locations
+       of their local maxima are nothing else than the vectors that belong to a certain
+       compact domain in a higher-dimensional space. (Technically speaking, the
+       dimensionality of the second vector may be different from that of the first vector,
+       however, one can correct this by inserting zero-valued elements into the shorter
+       vector.) By adoptig the null-hypthesis that those vectors are distributed uniformily
+       over that compact domain, one can estimate the probability that the distance
+       between them is smaller than the measured value. This estimate represents the
+       desired p-value.
+License: GPL (>= 2)
+Imports: 
+    Rcpp,
+    Matrix,
+    data.table,
+    dplyr,
+    methods
+LinkingTo: Rcpp
+RoxygenNote: 7.3.2
