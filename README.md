@@ -6,6 +6,11 @@ Two mathematical functions are defined on the same segment, and one aims to
 identify statistically, whether the locations of local maxima of the first function
 are correlated to those of the second function.
 
+## Installation
+
+`library(devtools)
+install_github("AlexSurnov/PeakCorTest")`
+
 ## Idea
 
 Given that both functions are defined on the same finite segment, the locations
