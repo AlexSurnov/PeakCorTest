@@ -21,7 +21,7 @@ desired p-value.
 ## Main Functions
 
 The two wrapper functions are `peak_cor_test(x, y)` and
-`peak_cor_test_with_smoothing(x, y)`
+`peak_cor_test_with_smoothing(x, y)`.
 
 ## Author
 
