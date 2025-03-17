@@ -8,8 +8,9 @@ are correlated to those of the second function.
 
 ## Installation
 
-`library(devtools)
-install_github("AlexSurnov/PeakCorTest")`
+`library(devtools)`
+
+`install_github("AlexSurnov/PeakCorTest")`
 
 ## Idea
 
